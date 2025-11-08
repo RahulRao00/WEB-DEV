@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+
+div {
+
+    height: 500px;
+    width: 500px;    
+    border: 1px solid grey;
+    background: cyan;
+    position: relative;
+    margin: 50px;
+    
+}
+
+#para1{
+    position: absolute;
+    
+    
+}
+
+#para2 {
+    
+    position: absolute;
+    right: 0%;
+    top: 0%;
+
+}
+
+#para3 {
+    position: absolute;
+    bottom: 0%;
+   
+}
+
+#para4 {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+
+}
+
+#para5 {
+
+    position: absolute;
+    top: 50%;
+    left: 48%;
+   
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    
+    width: 100%;
+    height: 100%;
+
+}
+.box {
+
+    margin: 20px;
+    height: 500px;
+    width: 500px;
+    background: #000;
+    background-image: url(https://images2.alphacoders.com/674/thumb-1920-674260.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}

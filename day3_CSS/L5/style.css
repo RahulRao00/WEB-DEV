@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+  /* ////////////////////////////////////////////// */
+
+#main {
+    height: 60vh;
+    width: 25vw;
+    background: #9ae3d3;
+    justify-content:center;
+    border: 1px solid blanchedalmond;
+}
+
+img {
+
+    border-radius: 5px;
+    width: 90%;
+    height: 60%;
+    margin: 10px;
+    justify-content: center;
+    
+}
+
+button {
+    width: 30%;
+    height: 30%;
+    color: white;
+    background-color: rgb(16, 220, 90);
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 4px;
+    margin-left: 10px;
+
+}
+
+#child {
+ 
+    background: #b2f0e2;
+    /* border: 1px solid wheat; */
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 90%;
+
+}

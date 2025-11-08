@@ -1,0 +1,10 @@
+
+.para {
+    background: #000;
+    color: blueviolet;
+}
+
+button:hover {
+ /* background: #f82828; */
+ color: rgb(13, 231, 159);
+}

@@ -1,0 +1,33 @@
+
+
+.div{
+    background: #000;
+    color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    border: 10px solid greenyellow;
+    border-radius: 50% 50%;
+    box-sizing: border-box;  
+
+}
+div {
+    height: 100px;
+    width: 1000px;
+}
+
+#red {
+    background: red;
+    color: rgb(27, 167, 223);
+}
+
+#green {
+    background: rgb(5, 245, 57);
+    color: rgb(56, 53, 216);
+}
+
+#white  {
+    background: white;
+    color: rgb(182, 27, 27);
+}

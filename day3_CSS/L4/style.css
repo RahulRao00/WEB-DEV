@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+
+    height: 100%;
+    width: 100%;
+
+}
+#div {
+
+    height: 50vh;
+    max-width: 200vw;
+    max-height: 200vh;
+    min-height: 40vh;
+    min-width: 40vw;
+        
+    width: 50vw;
+    background: #02b2f7;
+    border-radius: 40px;
+
+}
+
+body {
+    background: #000;
+}

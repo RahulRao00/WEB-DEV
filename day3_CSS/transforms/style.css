@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.div {
+
+    background:royalblue;
+    width: 300px;
+    margin: 5vh 5vw;
+    transform: translate(50vw,50vh);
+    transform:rotate(-10deg);
+
+}
+.box { 
+
+    background: #414141;
+    color: antiquewhite;
+    cursor: pointer;
+    cursor:no-drop;
+
+}
+
+button {
+
+    color: white;
+    background-color: royalblue;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 20px ;
+    font-weight: 800;
+    
+}
+
+
+button:hover {
+
+    background: cyan;
+    color: black;
+    /* transition-duration: 1ms; */
+    border: 1px solid red;
+    /* box-shadow: 0 0 10px cyan , 0 0  20px cyan , 0 0 30px cyan ; */
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2), -10px -10px 20px rgba(255,255,255,0.8);
+    margin:  50px auto;
+    border-radius: 5px ;
+    /* transition: transform .4s ease-in-out; */
+    /* transform: scale(1) rotate(5deg); */
+    /* clip-path: polygon(50% 0, 100% 50% , 50% 100%, 0% 50%); */
+}
+
+div {
+
+    height: 200px;
+    width: 200px;
+    background: cyan;
+    margin: 10px;
+    display:inline-block;
+    scrollbar-width: 100px;
+}
+
+.max1 {
+
+    
+    position: relative;
+    left: 10px;
+    top: 100px;
+    /* z-index: -1; */
+
+}
+.max2 {
+
+    position: relative;
+    z-index: -1;
+
+}
+
+.max3 {
+
+    position: sticky;
+    top: 0px;
+
+}
